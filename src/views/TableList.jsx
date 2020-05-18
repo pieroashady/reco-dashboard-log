@@ -35,7 +35,7 @@ class TableList extends Component {
   }
 
   baseUrl(route) {
-    return `http://52.77.8.120:4000/api/v1/${route}`;
+    return `http://32.247.147.177:4000/api/v1/${route}`;
   }
 
   getData() {
@@ -44,6 +44,7 @@ class TableList extends Component {
       this.setState({ reco: response.data });
     });
   }
+
   render() {
     const { reco } = this.state;
 
