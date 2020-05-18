@@ -35,7 +35,7 @@ class TableList extends Component {
   }
 
   baseUrl(route) {
-    return `http://32.247.147.177:4000/api/v1/${route}`;
+    return `http://35.247.147.177:4000/api/v1/${route}`;
   }
 
   getData() {
