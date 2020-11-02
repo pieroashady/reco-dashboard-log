@@ -1,0 +1,11 @@
+.containerz {
+	width: 600px;
+	height: 80%;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: auto;
+	margin: auto;
+}
